@@ -27,7 +27,7 @@
 }
 .form {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 .input {
     flex: 1;
@@ -40,11 +40,15 @@
     width: 40%;
     border: none;
     padding: 15px 20px;
+    border-radius: 15px;
     background-color: teal;
     color: white;
     cursor: pointer;
-    border-radius: 15px;
     margin-bottom: 10px;
+}
+.agreement {
+    font-size: 16px;
+    margin: 40px 0px;
 }
 .link {
     margin: 5px 0px;
@@ -52,4 +56,4 @@
     text-decoration: underline;
     list-style: none;
     cursor: pointer;
-}
+} 
